@@ -1,0 +1,208 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Palanquin Dark', sans-serif; */
+/* *{
+    border: 0.2px solid red;
+} */
+h1, h2 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 50px;
+    font-size: 700;
+}
+
+.pstyle{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-shadow: 0px 0px 5px orange;
+}
+#header, #Category,#AboutUs,#Destination,#services,#Gallery,#knowus,#Packages,#iframe,#brand,#news {
+    margin-bottom: 50px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.119);
+}
+.navbar-scrolled{
+    background-color:black;
+   
+  
+    
+  }
+
+
+.carousel-inner {
+    height: 300px;
+
+}
+
+.carouselimg {
+    height: 300px;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    padding: 0px 100px;
+    line-height: 40px;
+}
+
+.carousel-caption p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+
+/* category */
+.ccard {
+    padding: 50px;
+    height: 300px;
+    
+    
+}
+
+#aboutus p {
+    font-size: 20px;
+}
+
+.aimg {
+    border-radius: 60px;
+    padding: 9px 18px
+}
+
+/* destination */
+.card-text span {
+    padding: 0px 13px;
+}
+/* service */
+#services{
+    background-color:#F3F7F6 ;
+}
+.scard{
+    line-height: 35px;
+    
+    padding: 20px;
+
+}
+
+/* gallery */
+.gallerytext {
+    background-color: rgba(241, 236, 236, 0.854);
+    padding: 5px;
+    margin: 34px 20px;
+}
+
+.gallerytext1 {
+    background-color: rgba(241, 236, 236, 0.854);
+    padding: 5px;
+    margin: 111px 20px;
+}
+
+/* know us */
+.kimg img {
+    border-radius: 16px;
+}
+
+/* packages */
+.package {
+    margin-bottom: 126px;
+}
+
+.pcard {
+    background-color: white;
+     margin-top: -63px;
+    margin-left: 0px;
+}
+
+.card-body span {
+    padding: 0px 7px;
+}
+#footer{
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+
+@media only screen and (min-width:375px){
+    .ccard{
+        margin-top: 66px;
+    }
+}
+@media only screen and (min-width:375px){
+    .ccard{
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .carousel-inner {
+        height: 650px;
+    }
+
+    .carouselimg {
+        height: 650px;
+    }
+
+    .ccard {
+        padding: 0px;
+        height: 250px;
+        margin: 23px;
+    }
+
+    .aimg {
+        padding: 33px 18px;
+        height: 500px;
+    }
+
+    .card-text span {
+        padding: 0px 10px;
+    }
+
+    .gallerytext {
+       margin-bottom: 20px;
+    }
+
+    .gallerytext1 {
+       margin: 100px 20px;
+    }
+
+    .pcard {
+         margin-left: 18px;
+    }
+}
+
+
+@media only screen and (min-width:1200px) {
+    .ccard {
+        padding: 0px;
+    }
+
+    .aimg {
+        border-radius: 70px;
+        padding: 20px 40px;
+    }
+
+    .gallerytext {
+        padding: 0px;
+        margin: 70px 66px;
+    }
+
+    .gallerytext1 {
+        margin: 189px 20px;
+    }
+
+    .kimg {
+        border-radius: 50px 0px 0px 150px;
+        background-color: #63AB45;
+        padding-left: 20px;
+    }
+
+    .kimg img {
+        padding: 30px 76px;
+    }
+
+    .pcard {
+         margin-left: 35px;
+
+    }
+
+}
